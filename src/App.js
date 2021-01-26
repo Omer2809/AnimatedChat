@@ -35,9 +35,12 @@ export default function App() {
           return <Message key={index} message={message} />;
         })}
       </div>
-      <button className="btn" onClick={()=>setMessageToShow(0)}><MdReplay /></button>
-      {/* <button className="git" onClick={() => setMessageToShow(0)}><MdReplay /></button> */}
-      <a href="#"><FaGithub   className="git"/></a>
+      <button className="btn" onClick={() => setMessageToShow(0)}>
+        <MdReplay />
+      </button>
+      <a href="https://github.com/Omer2809/AnimatedChat">
+        <FaGithub className="git" />
+      </a>
     </div>
   );
 }
@@ -60,8 +63,8 @@ function TypingIndicator({ even }) {
   return (
     <motion.div
       className={`typing ${even ? "is-left" : "is-right"}`}
-      initial={{ rotate: 10,scale: 0.2 }}
-      animate={{ rotate: 0,scale: 1 }}
+      initial={{ rotate: 10, scale: 0.2 }}
+      animate={{ rotate: 0, scale: 1 }}
     >
       <div className="dots">
         <div />
