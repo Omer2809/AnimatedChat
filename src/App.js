@@ -41,6 +41,7 @@ export default function App() {
       <a href="https://github.com/Omer2809/AnimatedChat">
         <FaGithub className="git" />
       </a>
+      
     </div>
   );
 }
