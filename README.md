@@ -1,3 +1,5 @@
+This a small project to animate chat using framer motion, use-it/interval .etc..
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
