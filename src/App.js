@@ -38,10 +38,10 @@ export default function App() {
       <button className="btn" onClick={() => setMessageToShow(0)}>
         <MdReplay />
       </button>
-      <a href="https://github.com/Omer2809/AnimatedChat">
+      <a href="https://github.com/Omer2809/AnimatedChat" target="_blank">
         <FaGithub className="git" />
       </a>
-      
+
     </div>
   );
 }
