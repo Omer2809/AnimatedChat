@@ -32,6 +32,10 @@ body {
   padding: 1rem;
 }
 
+.wrap{
+  margin:0 10px;
+}
+
 @media (min-width: 768px) {
   .walkthrough {
     min-width: 473px;
