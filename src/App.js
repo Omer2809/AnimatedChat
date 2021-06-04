@@ -23,7 +23,7 @@ export default function App() {
 
   return (
     <div className="app">
-      <div className="wrap"><div className="walkthrough">
+      <div className="walkthrough">
         {messages.map((message, index) => {
           const even = index % 2 === 0;
 
@@ -37,7 +37,7 @@ export default function App() {
       </div>
       <button className="btn" onClick={() => setMessageToShow(0)}>
         <MdReplay />
-      </button></div>
+      </button>
       <a href="https://github.com/Omer2809/AnimatedChat" target="_blank">
         <FaGithub className="git" />
       </a>
