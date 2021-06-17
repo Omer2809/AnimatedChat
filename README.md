@@ -1,5 +1,9 @@
-This  small project  animates chat using framer motion, use-it/interval .etc..
+# [Animate Chat](https://animated-chat.vercel.app/)
 
+>This is a small animated Chat Show demo app
+
+This  small project  [animates chat](https://animated-chat.vercel.app/) using framer motion, use-it/interval .etc..
+[<img src="https://res.cloudinary.com/deqjuoahl/image/upload/v1623953684/screencapture-animated-chat-vercel-app-2021-06-17-23_44_24_scxcqe.png" alt="animate"/>](https://animated-chat.vercel.app/)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
